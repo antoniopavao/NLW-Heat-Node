@@ -4,4 +4,5 @@ import { AuthenticateUserController } from "./controllers/AuthenticateUserContro
 const router = Router();
 
 router.post("/authenticate", new AuthenticateUserController().handle);
+
 export { router };

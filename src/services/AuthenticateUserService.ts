@@ -1,13 +1,13 @@
 import axios from "axios";
-/*
---> Receber code(string)
---> Recuperar access_token no github
---> Recuperar infos do user no Github
---> Verificar se o usuario existe no DB
---> IF EXISTIR - GERA UM TOKEN
---> ELSE - CRIA NO BANCO DE DADOS, GERA UM TOKEN P USER
---> Retornar o token com as infos do user logado
 
+/*
+--> Receber code(string) [X]
+--> Recuperar access_token no github [X]
+--> Recuperar infos do user no Github [X]
+--> Verificar se o usuario existe no DB []
+--> IF EXISTIR - GERA UM TOKEN []
+--> ELSE - CRIA NO BANCO DE DADOS, GERA UM TOKEN P USER []
+--> Retornar o token com as infos do user logado  []
 */
 
 interface IAccessTokenResponse {

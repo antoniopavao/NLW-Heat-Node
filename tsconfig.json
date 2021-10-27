@@ -2,6 +2,7 @@
   "compilerOptions": {
     /* Language and Environment */
     "target": "es2017",
+    "module": "CommonJS",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": false,

@@ -23,4 +23,4 @@ app.use(authRouter);
 app.use(userRouter);
 app.use(messageRouter);
 
-serverHttp.listen(4000, () => console.log(`Server is running on port 4000`));
+export { serverHttp, io };
